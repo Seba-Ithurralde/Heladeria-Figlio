@@ -1,0 +1,339 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root
+{
+    --colornegro: black;
+    --colorgris: gray;
+    --colorblanco: white;
+    --tamañoimagen: padding: 20px;
+    --tamañogeneral: 20px;
+    --margintop: 10px;
+    --margin: 20px;
+    --marginleft: 20px;
+    --paddingleft: 10px;
+}
+
+body 
+{
+    background-image: linear-gradient(to bottom, gray, black);
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+p 
+{
+    font-size: var(--tamañogeneral);
+}
+
+.ubicacion 
+{
+    color: var(--colorgris);
+    font-size: var(--tamañogeneral);
+}
+
+.ubi
+{
+    margin: 5px;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    border: 3px solid gray;
+    margin-bottom: 20px;
+}
+
+h1 
+{
+    text-align: center;
+}
+
+.imagenes 
+{
+    background-color: var(--colornegro);
+    padding: var(--tamañoimagen);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 15px;
+    margin-left: var(--marginleft);
+    border: 3px solid black;
+    box-shadow: 100px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.imagen 
+{
+    background-color: var(--colornegro);
+    padding: var(--tamañoimagen);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 15px;
+    margin-left: var(--marginleft);
+    border: 3px solid gray;
+    box-shadow: 100px 10px 10px rgb(71, 70, 70);
+}
+
+.fb
+{
+    margin: 5px;
+    width: 250px;
+    height: 250px;
+    background-color: var(--colornegro);
+    padding: var(--tamañoimagen);
+    border-radius: 5px;
+    box-shadow: 100px 10px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.ig 
+{
+    margin: 5px;
+    width: 250px;
+    height: 250px;
+    background-color: var(--colornegro);
+    padding: var(--tamañoimagen);
+    border-radius: 5px;
+    box-shadow: 100px 10px 10px rgba(119, 114, 114, 0.2);
+    margin-bottom: 20px;
+
+}
+
+.chocolate 
+{
+   font-size: var(--tamañogeneral);
+   margin-top: var(--margintop);
+   margin: var(--margin);
+   margin-left: var(--marginleft);
+}
+
+.vainilla 
+{
+    color: var(--colorgris);
+    font-size: var(--tamañogeneral);
+    margin-top: var(--margintop);
+    margin: var(--margin);
+    margin-left: var(--marginleft);
+}
+
+.frutilla 
+{
+    color: var(--colorgris);
+    font-size: var(--tamañogeneral);
+    margin-top: var(--margintop);
+    margin: var(--margin);
+    margin-left: var(--marginleft);
+}
+
+.tamaño 
+{
+    font-size: var(--tamañogeneral);
+}
+
+.redes
+{
+    font-size: var(--tamañogeneral);
+    margin-top: 20px;
+}
+
+.ing 
+{
+    color: var(--colorgris);
+    font-size: var(--tamañogeneral);
+    margin: 5px;
+    padding: var(--tamañoimagen);
+}
+
+.fbo 
+{
+    margin: 5px;
+    padding: var(--tamañoimagen);
+
+}
+
+.choco 
+{
+    padding-left: var(--paddingleft);
+}
+
+.fruti 
+{
+    padding-left: var(--paddingleft);
+}
+
+.vaini 
+{
+    padding-left: var(--paddingleft);
+}
+
+.logofiglio
+{
+    width: 90px;
+
+}
+
+nav
+{
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul
+{
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav ul li 
+{
+    margin-right: 15px;
+}
+
+nav ul li a 
+{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+nav ul li a:hover 
+{
+    background-color: #444;
+}
+
+.foot 
+{
+    color: var(--colorblanco);
+    text-align: center;
+    padding: 10px;
+    font-size: var(--tamañogeneral);
+}
+
+.gris
+{
+    color: var(--colorgris);
+}
+
+.negro
+{
+    color: var(--colornegro);
+}
+
+html 
+{
+    scroll-behavior: smooth;
+}
+
+.der 
+{
+    margin: var(--margin);
+    padding-left: var(--paddingleft);
+}
+
+.izq
+{
+    margin: var(--margin);
+    padding-left: var(--paddingleft);
+}
+
+@media screen and (max-width: 768px)
+{
+    img 
+    {
+        width: 200px;
+        height: 200px;
+    }    
+
+    .logofiglio
+    {
+        width: 30px;
+        height: 30px;
+    }
+
+    .ig
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    .fb
+    {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 480px) 
+{
+    img 
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    .logofiglio
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+    .ig
+    {
+        width: 50px;
+        height: 50px;
+    }
+
+    .fb
+    {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.visto
+{
+    text-decoration: none;
+}
+
+.visit
+{
+    text-decoration: none;
+}
+
+.visto:hover
+{
+    color: var(--colorgris);
+}
+
+.visto:visited
+{
+    color: var(--colorblanco);
+}
+
+.visit:hover
+{
+    color: var(--colornegro);
+}
+
+.visit:visited
+{
+    color: var(--colorblanco);
+}
+
+.visit:active
+{
+    color: darkseagreen;
+}
+
+.visto:active
+{
+    color: burlywood;
+}
